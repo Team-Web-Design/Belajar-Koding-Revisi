@@ -258,6 +258,11 @@
 		padding-bottom: 20px;
 	}
   }
+  .isi_post{
+	margin-top: 0;
+	width: 100%;
+	height: 100px;
+}
   .bagian_profil{
 	background-color: transparent;
 }
