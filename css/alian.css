@@ -81,6 +81,14 @@ html {
     border-bottom: 5px solid #cae1ff;
 }
 
+#github:hover,
+#fb:hover,
+#twitter:hover {
+    color: #347dc6;
+    cursor: pointer;
+    transition: .5s;
+}
+
 
 /* course */
 
@@ -99,6 +107,7 @@ html {
 
 .kelas-premium .card {
     border: none;
+    margin-top: 20px;
     background-color: rgb(213, 213, 213);
     border-radius: 30px;
     border-bottom: 5px solid black;
