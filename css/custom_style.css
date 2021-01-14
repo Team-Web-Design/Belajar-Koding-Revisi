@@ -1,0 +1,331 @@
+.bg-dongker{
+	background-color: #111340;
+}
+.text{
+	color: #f6f6f6;
+}
+.isi{
+	margin-top: 30px;
+	text-align: center;
+}
+.garis{
+	width: 90px;
+	border: 2px solid #40a8c4;
+}
+.card-body{
+	text-align: left;
+}
+.card-title{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #40a8c4;
+}
+.card1{
+	margin-right: 80px;
+	border: 0;
+	float: right;
+}
+.card2{
+	margin-left: 100px;
+	border: 0;
+	float: left;
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+ .card1{
+    width: 150px;
+	margin-left: 30px;
+	float: none;
+    margin-left: 30px;
+    margin-top: 50px;
+ } 
+  .card2 {
+    width: 150px;
+    float: none;
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+}
+.card-img-top{
+	height: 250px;
+	width: 250px;
+}
+.posisi{
+	margin-bottom: 30px;
+	margin-left: -15px;
+}
+.dropdown-toggle{
+	text-decoration: none;
+	color: black;
+}
+.dropdown-toggle:hover{
+	color: #40a8c4;
+	text-decoration: none;
+}
+.bg-sky{
+	background-color: #40a8c4;
+	color: #f6f6f6;
+	float: right;
+}
+.bg-sky:hover{
+	background-color: #383836;
+	color: #f6f6f6;
+}
+.jarak{
+	padding-bottom: 20px;
+}
+.footer{
+	width: 100%;
+	background-color: #c0c5dc;
+	float: right;
+	margin-top: 50px;
+}
+.atas{
+	width: 100%;
+	margin-top: 50px;
+}
+.judul{
+	width: 40%;
+	float: left;
+}
+.layanan, .ikuti{
+	width: 20%;
+	float: right;
+}
+.lis{
+	border: 0;
+	background-color: transparent;
+	padding-left: -20px;
+}
+.tanggal{
+	width: 100%;
+	height: 50px;
+	float: left;
+	padding-top: 20px;
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .footer {
+    width: 100%;
+    float: left;
+  }
+  .judul{
+  	float: none;
+  	width: 100%;
+  	text-align: center;
+  }
+  .layanan, .ikuti{
+  	float: left;
+  	width: 35%;
+  	margin-top: 50px;
+  	margin-left: 15%;
+  }
+  .tanggal{
+  	text-align: center;
+  	margin-top: 30px;
+  }
+}
+.jumbo{
+	background: transparent;
+}
+.faq_judul{
+	font-size: 40px;
+}
+.sub_judul{
+	font-size: 30px
+}
+.kiri{
+	margin-top: 25px;
+	width: 30%;
+	float: left;
+}
+.pertanyaan{
+	width: 300px;
+}
+.tengah{
+	float: left;
+	width: 50%;
+	height: 700px;
+	margin-left: -10px;
+	margin-top: 25px;
+}
+.jawaban{
+	width: 100%;
+	height: 300px;
+	padding-left: 20px;
+	padding-top: 20px;
+	border: 1px solid rgb(221, 221, 221);
+	border-radius: 5px;
+}
+.teks{
+	width: 95%;
+	text-align: justify;
+}
+.btn-color{
+	background-color: #b63cdf;
+	color: white;
+}
+.btn-color:hover{
+	background-color: rgb(32, 32, 32);
+	color: white;
+}
+.form_pertanyaan{
+	width: 525px;
+}
+.lebar_form{
+	width: 200px;
+}
+.btn_send{
+	float: right;
+	margin-top: 10px;
+}
+.isi_post{
+	float: left;
+	margin-top: 50px;
+}
+.kanan{
+	float: left;
+	padding-left: 25px;
+	margin-top: 20px;
+}
+.enter{
+	margin-top: 40px;
+}
+.menu:hover{
+	background-color: #b63cdf;
+	color: white;
+	border: 0;
+	cursor: pointer;
+}
+.active2{
+	background-color: #b63cdf;
+}
+@media only screen and (max-width:1200px) {
+	/* For tablets: */
+	.faq_judul{
+		text-align: center;
+	}
+	.sub_judul{
+		text-align: center;
+	}
+	.kiri{
+		width: 100%;
+	}
+	.pertanyaan{
+		margin-top: 20px;
+		width: 100%;
+		float: left;
+	}
+	.tengah{
+		float: right;
+		width: 100%;
+		height: 700px;
+		margin-left: -10px;
+	}
+	.enter{
+		width: 100%;
+	}
+	.form_pertanyaan{
+		width: 100%;
+	}
+	.kanan{
+		width: 100%;
+		padding: 0;
+		margin-top: -180px;
+		padding: 0;
+	}
+	.message{
+		height: 100px;
+		width: 100%;
+		text-align: justify;
+		margin-top: 60px;
+	}
+	.isi_post{
+		margin-top: 0;
+		width: 100%;
+		height: 100px;
+	}
+	.lebar_form{
+		width: 100%;
+	}
+	.jawaban{
+		width: 100%;
+		height: auto;
+		padding-top: 20px;
+		border: 1px solid rgb(221, 221, 221);
+		border-radius: 5px;
+		margin-top: 30px;
+		padding-bottom: 20px;
+	}
+  }
+  .bagian_profil{
+	background-color: transparent;
+}
+  .judul_profil{
+	  text-align: center;
+  }
+  .bungkus{
+	  height: 500px;
+	  margin-top: 50px;
+  }
+  .foto{
+	  margin-top: 20px;
+	  height: 350px;
+  }
+  .change_img{
+	margin-left: 40px;
+  }
+  .foto_avatar{
+	  background-color: transparent;
+	  float: left;
+	  margin-left: 70px;
+	  border: 0;
+  }
+  .profil{
+	width: 50%;
+	float: left;
+	margin-left: 130px;
+	padding-top: 70px;
+  }
+  .label{
+	  float: left;
+	  width: 200px;
+  }
+  .label_list{
+	  border: 0;
+  }
+  .form_label{
+	  padding-left: 30px;
+  }
+  .update{
+	  float: right;
+	  margin-left: 20px;
+  }
+  @media only screen and (max-width:800px){
+	  .bungkus{
+		  height: 700px;
+	  }
+	  .foto{
+		  height: 700px;
+	  }
+	  .foto_avatar{
+		background-color: transparent;
+		margin-left: 110px;
+		border: 0;
+	  }
+	  .profil{
+		padding-top: 70px;
+		margin-left: 0px;
+		width: 430px;
+	  }
+	  .label{
+		width: 180px;
+	}
+	.form_label{
+		width: 400px;
+	}
+	.update{
+		float: right;
+		margin-left: 10px;
+	}
+  }
