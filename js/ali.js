@@ -6,7 +6,7 @@ $(document).ready(function () {
     if (username == "" || email == "" || password == "") {
       Swal.fire("Gagal", "Tidak Boleh Kosong", "warning");
     } else {
-      window.location.replace("../home.html");
+      window.location.replace("home.html");
     }
   });
 
@@ -21,13 +21,13 @@ $(document).ready(function () {
       var kelas = $("input[name='course']:checked").val();
       if (kelas == "kotlin") {
         alert("Selamat Bergabung " + nama + " :)");
-        window.location.replace("../page-source/course/course-kotlin.html");
+        window.location.replace("page-source/course/course-kotlin.html");
       } else if (kelas == "python") {
         alert("Selamat Bergabung " + nama + " :)");
-        window.location.replace("../page-source/course/course-py.html");
+        window.location.replace("page-source/course/course-py.html");
       } else if (kelas == "java") {
         alert("Selamat Bergabung " + nama + " :)");
-        window.location.replace("../page-source/course/course-java.html");
+        window.location.replace("page-source/course/course-java.html");
       } else {
         alert("Silahkan Pilih Kelas");
       }
