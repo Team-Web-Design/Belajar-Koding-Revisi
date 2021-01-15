@@ -18,9 +18,10 @@
     <nav class="navbar navbar-expand-lg navbar-dark navigasi">
         <div class="container">
             <a class="navbar-brand text-light" href="home.html">Belajar Koding</a>
-            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon "></span>
-        </button>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
@@ -55,23 +56,23 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block img-fluid" height="400px" width="100%" src="assets/img/carousel-1.png" alt="First slide">
+                <img class="d-block img-fluid" width="100%" src="assets/img/carousel-1.png" alt="First slide" id="cs-1">
                 <div class="carousel-caption">
-                    <h3>Mulai Mempelajari Programming</h3>
+                    <p class="h5">Mulai Mempelajari Programming</p>
                     <p>Untuk mulai berkarya</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="assets/img/carousel-2.png" alt="Second slide">
                 <div class="carousel-caption">
-                    <h3>Mudah Dan Menyenangkan</h3>
+                    <p class="h5">Mudah Dan Menyenangkan</p>
                     <p>Belajar tanpa ada harus takut stress</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="assets/img/carousel-3.png" alt="Third slide">
                 <div class="carousel-caption">
-                    <h3>Mulai Mempelajari Skill</h3>
+                    <p class="h5">Mulai Mempelajari Skill</p>
                     <p>Skill yang banyak dicari di perusahaan !</p>
                 </div>
             </div>
@@ -87,12 +88,9 @@
     </div>
 
     <section class="mt-5 text-center">
-        <h1>Kelas Terbaru</h1>
-        <center>
-            <div id="line-title"></div>
-        </center>
-
-        <div class="kelas-free mt-5 mb-5">
+        <p class="h2">Kelas Terbaru</p>
+        <div id="line-title" class="mx-auto"></div>
+        <div class=" kelas-free mt-5 mb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4  col-sm-12">
@@ -100,7 +98,7 @@
                             <div class="card kelas-css">
                                 <div class="card-body">
                                     <img src="assets/img/css-icon.png" width="100">
-                                    <h3 class="mt-5">Kelas CSS</h3>
+                                    <p class="mt-5 h4">Kelas CSS</p>
                                 </div>
                             </div>
                         </a>
@@ -110,7 +108,7 @@
                             <div class="card kelas-html">
                                 <div class="card-body">
                                     <img src="assets/img/html-icon.png" width="100">
-                                    <h3 class="mt-5">Kelas HTML</h3>
+                                    <p class="mt-5 h4">Kelas HTML</p>
                                 </div>
                             </div>
                         </a>
@@ -120,7 +118,7 @@
                             <div class="card kelas-js">
                                 <div class="card-body">
                                     <img src="assets/img/js-icon.png" width="100">
-                                    <h3 class="mt-5">Kelas JavaScript</h3>
+                                    <p class="mt-5 h4">Kelas JavaScript</p>
                                 </div>
                             </div>
                         </a>
@@ -131,7 +129,8 @@
     </section>
 
     <section>
-        <h3 class="text-center mb-5">Luaskan ilmu, luaskan manfaat<br>pelajari kelas seru penambah ilmu.</h3>
+        <p class="text-center mb-5 h3 text-muted">Luaskan ilmu, luaskan manfaat<br>pelajari kelas seru penambah ilmu.
+        </p>
     </section>
 
     <!-- Akhir Konten -->
@@ -175,6 +174,7 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </body>
 
 </html>

@@ -18,9 +18,10 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dongker">
         <div class="container">
             <a class="navbar-brand text-light navigasi" href="home.html">Belajar Koding</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -50,30 +51,28 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/img/carousel-4.png" alt="First slide">
+                <img class="d-block w-100" height="400px" src="assets/img/carousel-4.png" alt="First slide">
                 <div class="carousel-caption">
-                    <h3 class="mt-5">Jadilah Programmer Handal</h3>
+                    <h5 class="mt-5">Jadilah Programmer Handal</h5>
                     <p>Dengan Berlangganan di Belajar Koding Bayar Sekali, Akses Selamanya. <br>dan dapatkan serfikat.
                     </p>
-                    <a class="btn btn-primary" href="#kelas-premium" role="button">Mulai Berlangganan</a>
+                    <a class="btn btn-primary" href="#title-kelas-premium" role="button">Mulai Berlangganan</a>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="container text-center mt-5">
-        <h1>Pilih Kelas</h1>
-        <center>
-            <div id="line-title"></div>
-        </center>
-
+        <h2 id="title-kelas-premium">Pilih Kelas</h2>
+        <div id="line-title" class="mx-auto"></div>
         <div class="row mt-5 mb-5 kelas-premium" id="kelas-premium">
             <div class="col-md-4 col-sm-12">
                 <div class="card kelas-kotlin">
-                    <a href="#exampleModalLong" class="text-dark nav-link" data-toggle="modal" data-target="#exampleModalLong">
+                    <a href="#exampleModalLong" class="text-dark nav-link" data-toggle="modal"
+                        data-target="#exampleModalLong">
                         <div class="card-body ">
                             <img src="assets/img/kt-icon.png " width="100 " class="mt-5 ">
-                            <h2 class="mt-5 ">Kelas Kotlin</h2>
+                            <h3 class="mt-5 ">Kelas Kotlin</h3>
                             <p><i class="fa fa-dollar "></i> 500.000</p>
                         </div>
                     </a>
@@ -81,10 +80,11 @@
             </div>
             <div class="col-md-4 col-sm-12">
                 <div class="card kelas-py ">
-                    <a href="#exampleModalLong" class="text-dark nav-link" data-toggle="modal" data-target="#exampleModalLong">
+                    <a href="#exampleModalLong" class="text-dark nav-link" data-toggle="modal"
+                        data-target="#exampleModalLong">
                         <div class="card-body ">
                             <img src="assets/img/py-icon.png " width="100 " class="mt-5 ">
-                            <h2 class="mt-5 ">Kelas Python</h2>
+                            <h3 class="mt-5 ">Kelas Python</h3>
                             <p><i class="fa fa-dollar "></i> 699.999</p>
                         </div>
                     </a>
@@ -92,10 +92,11 @@
             </div>
             <div class="col-md-4 col-sm ">
                 <div class="card kelas-java ">
-                    <a href="#exampleModalLong" class="text-dark nav-link" data-toggle="modal" data-target="#exampleModalLong">
+                    <a href="#exampleModalLong" class="text-dark nav-link" data-toggle="modal"
+                        data-target="#exampleModalLong">
                         <div class="card-body ">
                             <img src="assets/img/java-icon.png " width="100 " class="mt-5 ">
-                            <h2 class="mt-5 ">Kelas Java</h2>
+                            <h3 class="mt-5 ">Kelas Java</h3>
                             <p><i class="fa fa-dollar "></i> 450.000</p>
                         </div>
                     </a>
@@ -105,18 +106,21 @@
     </div>
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLongTitle">Siap Bergabung ?</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
                 <div class="modal-body">
-                    <input type="text" id="nama" class="form-control" placeholder="Nama Lengkap" aria-label="Nama Lengkap" aria-describedby="basic-addon1">
-                    <input type="email" id="email" class="form-control mt-2" placeholder="Email" aria-label="email" aria-describedby="basic-addon1">
+                    <input type="text" id="nama" class="form-control" placeholder="Nama Lengkap"
+                        aria-label="Nama Lengkap" aria-describedby="basic-addon1">
+                    <input type="email" id="email" class="form-control mt-2" placeholder="Email" aria-label="email"
+                        aria-describedby="basic-addon1">
                     <p>Status : </p>
                     <div class="status">
                         <input type="radio" name="mhs"> Mahasiswa
@@ -131,7 +135,8 @@
                         <input type="radio" name="course" value="python"> Python
                         <input type="radio" name="course" value="java"> Java
                     </div>
-                    <input type="text" class="form-control mt-2" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control mt-2" placeholder="Username" aria-label="Username"
+                        aria-describedby="basic-addon1">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
@@ -183,6 +188,7 @@
     <script type="text/javascript " src="js/popper.min.js "></script>
     <script type="text/javascript " src="js/bootstrap.min.js "></script>
     <script type="text/javascript " src="js/ali.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </body>
 
 </html>

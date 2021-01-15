@@ -3,11 +3,11 @@ html {
 }
 
 .navigasi {
-    background-color: #111340!important;
+    background-color: #111340 !important;
 }
 
 .navigasi .nav-link:hover {
-    color: white!important;
+    color: white !important;
     transition: .5s;
 }
 
@@ -39,7 +39,6 @@ html {
     padding: 10px;
     border: none;
 }
-
 
 /* Home */
 
@@ -89,7 +88,6 @@ html {
     transition: .5s;
 }
 
-
 /* course */
 
 .isi-konten {
@@ -130,6 +128,18 @@ html {
 
 .kelas-java:hover {
     background-color: #ff6c39;
+}
+
+.sertifikat {
+    padding: 20px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../assets/img/bg-sertifikat.png');
+}
+
+.sertifikat h5 {
+    color: #cae1ff;
 }
 
 
